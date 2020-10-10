@@ -1,0 +1,18 @@
+name: 'Replace matching array elements in YAML'
+description: 'Replace array values that match keys in YAML'
+branding:
+  color: 'black'
+  icon: 'repeat'
+inputs:
+  source-file:
+    description: 'Source file path (only json)'
+    required: true
+  target-file:
+    description: 'Target file path (only yaml)'
+    required: true
+  matching-key:
+    description: 'Matching key name to find in each element of array'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

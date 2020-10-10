@@ -1,0 +1,12 @@
+{
+  "name": "replace-matching-array-yaml",
+  "version": "1.0.0",
+  "description": "Replace array values that match keys in YAML",
+  "main": "index.js",
+  "author": "jonnung <jonnung@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "js-yaml": "^3.14.0"
+  }
+}
